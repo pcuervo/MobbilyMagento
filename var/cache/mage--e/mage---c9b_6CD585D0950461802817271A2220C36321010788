@@ -1,0 +1,21 @@
+<div class="block block-layered-nav block-layered-nav--no-filters">
+    <div class="block-title">
+        <strong><span>Browse By</span></strong>
+    </div>
+    <div class="block-content toggle-content open">
+        <p class="block-subtitle block-subtitle--filter">Filter</p>
+        <dl id="narrow-by-list2">
+            <dt>Category</dt>
+            <dd>
+                <ol>
+                                                        <li>
+                        <a href="http://localhost.dev:8888/index.php/computer/desktops.html?___SID=U">
+                            desktops                            <span class="count">(1)</span>
+                        </a>
+                    </li>
+                                                    </ol>
+            </dd>
+        </dl>
+        <script type="text/javascript">decorateDataList('narrow-by-list2')</script>
+    </div>
+</div>
