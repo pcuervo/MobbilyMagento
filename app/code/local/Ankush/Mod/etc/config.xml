@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<config>
+	<global>
+		<blocks>
+			<!-- THIS IS CLASS GROUP (ANYTHING UNIQUE)-->
+			<ankush_mod>  
+				<class>Ankush_Mod_Block</class>
+			</ankush_mod>
+		</blocks>
+		<helpers> 
+			<ankush_mod>
+				<!-- THIS IS HELPER CLASS NAME -->
+				<class>Ankush_Mod_Helper</class> 
+			</ankush_mod>
+		</helpers>
+		<models>
+			<ankush_mod>
+				<class>Ankush_Mod_Model</class>
+			</ankush_mod>
+		</models>
+	</global>
+
+	<frontend>
+		<routers>
+			<ankush_mod>
+				<use>standard</use>
+				<args>
+					<module>Ankush_Mod</module>
+					<frontName>testing</frontName> 
+				</args>
+			</ankush_mod>
+		</routers>
+	</frontend>
+
+</config>
